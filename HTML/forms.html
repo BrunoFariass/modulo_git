@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <label for="complete name">Complete name:</label>
+        <input id="complete name" type="Complete name" /> 
+        <br />
+        <label for="e-mail address">Your e-mail</label> 
+        <input id="e-mail address" type="e-mail:"/> <br />
+        <label for="You number">Telephone:</label>
+        <input id="tel:" type="telephone" /> <br/>
+        <label for="choice a number" >Choice one number</label>
+        <input type="number" max="20" min="4" step="4" /> <br/>
+        <input type="file" /> <br/>
+        <input type="color"/> <br/>
+        <input type="checkbox"/>I accept all terms<label for="checkbox"></label> <br/>
+        <input type="checkbox"/>I confirm all data<label for="checkbox"></label>
+    </form>
+        
+        <hr /> <strong><hr/></strong>
+        <h2>Security Contacts</h2>
+    <form>
+        <input type="text" placeholder="Security e-mail" />
+        <br />
+        <input type="text" placeholder="confirm surname" /> <br />
+        <input type="Tel:" placeholder="Your number" /> <br />
+        <input type="number" placeholder="Choice one number" max="10" min="2" step="2" /> <br/>
+        <input type="file" /> <br/>
+        <input type="color" /> <br/>
+        <input type="checkbox"/>I accept all terms<label for="checkbox"></label> <br/>
+        <input type="checkbox"/> <label id="Data confirmation">I confirm all data</label>
+        <p>
+            Qual a sua cor favorita?
+        </p>
+        <input type="radio" name="cor-favorita" id="Cor vermelha"/><label for="cor-vermelha">Vermelho</label> <br/>
+        <input type="radio" name="cor-favorita" id="Cor verde"/><label for="cor-verde">Verde</label> <br/>
+        <input type="radio" name="cor-favorita" id="Cor azul"/><label for="cor-azul">Azul</label> <br/>
+        <br/>
+        <label>Escolha o seu filme favorito:</label> <br/>
+        <select multiple>
+            <option>MIB Homens de preto</option>
+            <option>Meninas Malvadas</option>
+            <option>Malévola</option>
+        </select> <br/>
+        <h6>Digite o seu comentário:</h6>
+        <textarea></textarea> <br/>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+
+    </form>
+</body>
+</html>
