@@ -1,0 +1,148 @@
+* {                                   /*Nesse caso, é para alterar o espaçamento de margem, altura e largura do cabeçalho de página. */
+    margin: 0;
+    padding: 0;                     /*Define a distância entre um conteúdo de um elemento e suas bordas*/
+    box-sizing: border-box;        /*Esse comando com esse valor border box, faz com que o navegador não calcule a dimensão de um elemento somando as bordas e margens como altura e largura*/
+
+} 
+
+                        /*Nesta sessão, sinaliza que tudo que esta dentro desses endereços serão alterados.*/
+header,                /* cabeçalho, ou seja, tudo que está atrelado no cabeçalho será alterado*/
+section h2,           /*Tudo que estiver atrelado na section seguido da tag de direcionamento "h2, h3, ou qualquer uma que esteja" será alterado de acordo com o comando a seguir*/
+section h3,          /*Mesmo exemplo acima serve para esta section*/
+form button {       /*mesmo exemplo acima.*/
+    font-family: 'Bungee Spice', cursive;
+    color: rgb(219, 168, 39);
+    
+}
+
+
+body, input, textarea {
+    font-family: 'Bungee Spice', cursive;
+    background-color: #182c61;
+}
+
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: rgb(219, 168, 39);
+    
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+
+}
+
+header nav li a {
+    color:  rgb(219, 168, 39);
+    text-decoration: none;
+    
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.list-movies img {
+    height: 700px;
+   
+}
+
+.list-movies li {
+    display: inline;
+    margin-right: 8px;
+    
+}
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182C61;
+}
+section p {
+    margin-bottom: 8px;
+}
+
+.center-img {
+    margin-left: 32px;
+    margin-bottom: 18px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods,
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #611823;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fff;
+}
+
+input :focus, textarea:focus {
+    outline: rgb(219, 168, 39);
+    
+}
+
+footer {
+    background-color: #182C61;
+    color: rgb(219, 168, 39);
+    padding: 16px 0;
+    display: block;
+}   

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header,
 section h2,
 section h3,
@@ -92,7 +93,7 @@ section p {
 }
 
 .contact-methods,
-footer p {
+footer {
     display: flex;
     justify-content: space-between;
 }
